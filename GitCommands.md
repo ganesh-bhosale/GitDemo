@@ -36,3 +36,16 @@
 
 ###### Getting changes from a Remote Repo to Local
 - git pull origin main
+
+###### Creating new Branches
+- git branch new_branch
+
+###### Switching Branches
+- git checkout new_branch
+
+###### Merging branches
+- git checkout main
+- git merge new_branch
+// Remove old branch
+- git branch -d new_branch
+- git branch -a (Show all branches)
